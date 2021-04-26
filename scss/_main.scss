@@ -1,0 +1,28 @@
+.estiloMain{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 90vh;
+	margin-top:4rem;
+}
+
+.estiloMainOnePage{
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-top: 2rem;
+	width: 100Vw;
+	min-height: 565vh;
+	margin-top:4rem;
+}
+
+.estiloMainContacto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1000px;
+  margin-top:4rem;
+}
+	

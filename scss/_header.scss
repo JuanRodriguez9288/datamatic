@@ -1,0 +1,46 @@
+@mixin fondoHeader(){
+  background: rgb(204,205,205);
+  background: linear-gradient(90deg, rgba(204,205,205,1) 
+  0%, rgba(126,193,228,1) 50%, rgba(204,205,205,1) 100%);  
+
+  }
+.estiloHeader{
+  z-index: 100;
+  @include fondoHeader;
+  margin-left: 1%;
+  position: fixed;
+  top:0;
+  width: 98%;
+  height: 3rem;
+  min-height: 60px;
+  border-bottom: 1px solid $colorBorde;
+  border-radius: 0px 0px 10px 10px;
+}
+
+nav {
+  a {
+    display: flex;
+    padding: 0 20px;
+    color: $colorTexto;
+    font-weight: $pesoFuenteNormal;
+    font-size: 20px;
+    text-decoration: none;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 450ms ease-in-out;
+    }
+  }
+  button {
+    display: flex;
+    padding: 0 20px;
+    color: $colorFondoCeleste;
+    font-weight: $pesoFuenteNormal;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    &:hover {
+      transform: scale(1.0, 1.0);
+      transition: all 450ms ease-in-out;
+    }
+  }
+}

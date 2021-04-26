@@ -1,0 +1,47 @@
+@media all and (max-width:991px){
+  header nav ul{
+    background: rgb(204,205,205);
+    background: linear-gradient(90deg, rgba(204,205,205,1) 0%, rgba(126,193,228,1) 50%, rgba(204,205,205,1) 100%); 
+  }
+
+}
+@media all and (min-width:991px){
+  header nav ul li div{
+    background: rgb(204,205,205);
+    background: linear-gradient(90deg, rgba(204,205,205,1) 0%, rgba(126,193,228,1) 50%, rgba(204,205,205,1) 100%); 
+    border-bottom: 1px solid gray;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+}
+@media all and (max-width:550px){
+.divImgCarrousell{
+  margin-left: 0;
+  height: 90%;
+}
+#cTMCarrousell{
+  margin-right: 0;
+  height: 90%;
+}
+  #imgLogoFooter{
+    width: 6.2em;
+  }
+  #imgIconosFooter{
+    width: 1.8em;
+  }
+#contenedorCasosDeExito{
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+ 
+}
+
+@media all and (max-width:768px){
+  #imgLogoTitulo{
+    width: 0em;
+  }
+  .h1TextoGrandeIndex{
+        font-size: 3.5em;
+       }
+}

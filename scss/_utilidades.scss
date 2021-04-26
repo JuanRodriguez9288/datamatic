@@ -1,0 +1,206 @@
+.padding5rem{
+  padding-top: 5rem;
+}
+#altoCardServicios{
+  height:680px;
+}
+
+.overflowAuto{
+  overflow: auto;
+}
+
+
+/*seccion Contacto*/
+.estiloIFrameMapa{
+  width:20em;
+  height: 16em;
+  border-color: $colorBorde;
+  border-width: 1px 0px 1px 0px;
+  border-radius: 8px 8px 8px 8px;
+}
+.margenesContacto{
+  margin-top:1rem;
+}
+
+/*General*/
+#imagenesMultiples{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center ;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#mitadDeSeccion{
+  display:flex;
+  width: 48%;
+  height: 96%;
+}
+.padding5rem{
+  padding-top: 5rem;
+}
+.ancho200px{
+  width:200px;
+}
+#imgLogoTitulo{
+  width: 20em;
+}
+
+.contenedorTextosMultiples{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  align-self: center ;
+  align-items: center;
+  height: 98%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  overflow-x: auto;
+  overflow-y: auto;
+  border-bottom: 0px solid ;
+  border-right: 0px solid ;
+  border-top: 0px solid ;
+  border-left: 0px solid ;
+
+  	
+}
+#cTMCarrousell{
+	  margin-right: 5.1rem;
+	  height: 90%;
+	}
+.divImgCarrousell{
+  margin-left: 3.5rem;
+  height: 80%;
+}
+.textAreaFijo{
+  resize: none;
+  overflow: scroll;
+}
+.estiloContenidos{
+  border-color: $colorBorde;
+  background: rgb(204,205,205);
+  background: linear-gradient(90deg, 
+  rgba(204,205,205,0.6978992280505952) 0%, 
+  rgba(126,193,228,0.89733900396095936) 50%, 
+  rgba(204,205,205,0.8001401244091386) 100%); 
+  border-width: 1px 0px 1px 0px;
+  border-radius: 8px 8px 8px 8px; 
+  -webkit-box-shadow: 3px 3px 8px 2px $colorFondoCeleste;
+  box-shadow: 3px 3px 8px 2px $colorFondoCeleste;
+  
+}
+.centradoContenidoServicios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.estiloIngresoDeDatos{
+  border-color: $colorBorde;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 6px 6px 6px 6px; 
+  -webkit-box-shadow:inset 2px 2px 6px 2px $colorFondoCeleste;
+  box-shadow:inset 2px 2px 6px 2px $colorFondoCeleste;
+}
+
+.redondeadoBottom{
+  border-bottom: 1px solid $colorBorde;
+  border-radius: 0px 0px 10px 10px;
+}
+#propImgGrande{
+  border-radius: 10px 10px 10px 10px;
+  width: 90%;
+}
+#propImgMax{
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+}
+#propImgMitad{
+  border-radius: 10px 10px 10px 10px;
+  width: 45%;
+}
+
+/*seccion Casos de éxito*/
+#contenedorCasosDeExito{
+  display: flex;
+  position:relative;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-items: space-around;
+  align-items: center;
+  height: 100%;
+  margin-top: 0;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+#divImgLink{
+  padding-top: .25rem;
+  padding-bottom: .50rem;
+  height: 3rem;
+ 
+}
+#propImgLink{
+  height: 100%;
+}
+#imgIconGrande{
+  width: 4em;
+}
+#imgIcon{
+  width: 2em;
+}
+#img80{
+  width: 80%;
+}
+
+/*seccion Servicios*/
+.transfLink img:hover{
+ transform: scale(1.1, 1.1);
+ transition: all 400ms ease-in-out;
+  
+}
+.flechaUp{
+  display: flex;
+  position: relative;
+  margin-left: 95%;
+  margin-bottom: 3%;
+}
+#contenedorCarrousellServicios{
+  display: flex;
+  position:relative;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-items: space-around;
+  align-items: center;
+  height: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.servicioEnPantallaCompleta{
+  height: 100Vh;
+}
+.divImgCarrousellServicios{
+	  margin-left: 0;
+	  height: 90%;
+	}
