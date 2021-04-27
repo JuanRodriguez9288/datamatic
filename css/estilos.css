@@ -237,7 +237,7 @@ body {
   flex-wrap: wrap;
   justify-items: space-around;
   align-items: center;
-  height: 80%;
+  height: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
   overflow-x: auto;
@@ -460,6 +460,21 @@ nav button:hover {
 }
 
 @media all and (max-width: 550px) {
+  #contenedorCarrousellServicios {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-items: space-around;
+    align-items: center;
+    height: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
   .divImgCarrousell {
     margin-left: 0;
     height: 90%;
