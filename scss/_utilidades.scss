@@ -1,8 +1,9 @@
 .padding5rem{
   padding-top: 5rem;
 }
-#altoCardServicios{
-  height:680px;
+
+#anchoContactar{
+  width:50Vw;
 }
 
 .overflowAuto{
@@ -107,8 +108,10 @@
 .centradoContenidoServicios{
   display: flex;
   flex-direction: column;
+  flex-basis: auto;
+  height:90Vh;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .estiloIngresoDeDatos{
@@ -188,7 +191,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-items: space-around;
   align-items: center;
   height: 80%;
@@ -204,3 +207,9 @@
 	  margin-left: 0;
 	  height: 90%;
 	}
+@mixin fondoServiciosDesplegable(){
+  background: rgb(204,205,205);
+  background: linear-gradient(90deg, rgba(204,205,205,0.9) 
+  0%, rgba(126,193,228,0.9) 50%, rgba(204,205,205,0.9) 100%);  
+
+  }

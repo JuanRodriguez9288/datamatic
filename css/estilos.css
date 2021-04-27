@@ -1,22 +1,18 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap");
-/* line 3, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_general.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 7, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_general.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 9, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_general.scss */
 body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-/* line 13, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_general.scss */
 .imagenBg {
   background-image: url("../media/ejemplopantallainicio2.jpg");
   height: 100%;
@@ -26,7 +22,6 @@ body {
   background-size: cover;
 }
 
-/* line 21, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_general.scss */
 .imagenBgOnePage {
   background-image: url("../media/ejemplopantallainicio2.jpg");
   height: 100Vh;
@@ -36,23 +31,19 @@ body {
   background-size: cover;
 }
 
-/* line 1, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .padding5rem {
   padding-top: 5rem;
 }
 
-/* line 4, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
-#altoCardServicios {
-  height: 680px;
+#anchoContactar {
+  width: 50Vw;
 }
 
-/* line 8, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .overflowAuto {
   overflow: auto;
 }
 
 /*seccion Contacto*/
-/* line 14, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .estiloIFrameMapa {
   width: 20em;
   height: 16em;
@@ -61,13 +52,11 @@ body {
   border-radius: 8px 8px 8px 8px;
 }
 
-/* line 21, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .margenesContacto {
   margin-top: 1rem;
 }
 
 /*General*/
-/* line 26, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #imagenesMultiples {
   display: flex;
   flex-direction: column;
@@ -83,29 +72,24 @@ body {
   overflow-y: auto;
 }
 
-/* line 41, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #mitadDeSeccion {
   display: flex;
   width: 48%;
   height: 96%;
 }
 
-/* line 46, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .padding5rem {
   padding-top: 5rem;
 }
 
-/* line 49, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .ancho200px {
   width: 200px;
 }
 
-/* line 52, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #imgLogoTitulo {
   width: 20em;
 }
 
-/* line 56, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .contenedorTextosMultiples {
   display: flex;
   position: relative;
@@ -131,25 +115,21 @@ body {
   border-left: 0px solid;
 }
 
-/* line 82, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #cTMCarrousell {
   margin-right: 5.1rem;
   height: 90%;
 }
 
-/* line 86, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .divImgCarrousell {
   margin-left: 3.5rem;
   height: 80%;
 }
 
-/* line 90, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .textAreaFijo {
   resize: none;
   overflow: scroll;
 }
 
-/* line 94, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .estiloContenidos {
   border-color: gray;
   background: #cccdcd;
@@ -160,15 +140,15 @@ body {
   box-shadow: 3px 3px 8px 2px #7ec1e4;
 }
 
-/* line 107, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .centradoContenidoServicios {
   display: flex;
   flex-direction: column;
+  flex-basis: auto;
+  height: 90Vh;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-/* line 114, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .estiloIngresoDeDatos {
   border-color: gray;
   border-width: 1px 1px 1px 1px;
@@ -177,32 +157,27 @@ body {
   box-shadow: inset 2px 2px 6px 2px #7ec1e4;
 }
 
-/* line 122, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .redondeadoBottom {
   border-bottom: 1px solid gray;
   border-radius: 0px 0px 10px 10px;
 }
 
-/* line 126, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #propImgGrande {
   border-radius: 10px 10px 10px 10px;
   width: 90%;
 }
 
-/* line 130, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #propImgMax {
   border-radius: 10px 10px 10px 10px;
   width: 100%;
 }
 
-/* line 134, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #propImgMitad {
   border-radius: 10px 10px 10px 10px;
   width: 45%;
 }
 
 /*seccion Casos de éxito*/
-/* line 140, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #contenedorCasosDeExito {
   display: flex;
   position: relative;
@@ -218,41 +193,34 @@ body {
   overflow-y: auto;
 }
 
-/* line 154, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #divImgLink {
   padding-top: .25rem;
   padding-bottom: .50rem;
   height: 3rem;
 }
 
-/* line 160, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #propImgLink {
   height: 100%;
 }
 
-/* line 163, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #imgIconGrande {
   width: 4em;
 }
 
-/* line 166, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #imgIcon {
   width: 2em;
 }
 
-/* line 169, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #img80 {
   width: 80%;
 }
 
 /*seccion Servicios*/
-/* line 174, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .transfLink img:hover {
   transform: scale(1.1, 1.1);
   transition: all 400ms ease-in-out;
 }
 
-/* line 179, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .flechaUp {
   display: flex;
   position: relative;
@@ -260,14 +228,13 @@ body {
   margin-bottom: 3%;
 }
 
-/* line 185, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 #contenedorCarrousellServicios {
   display: flex;
   position: relative;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-items: space-around;
   align-items: center;
   height: 80%;
@@ -277,18 +244,15 @@ body {
   overflow-y: auto;
 }
 
-/* line 200, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .servicioEnPantallaCompleta {
   height: 100Vh;
 }
 
-/* line 203, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_utilidades.scss */
 .divImgCarrousellServicios {
   margin-left: 0;
   height: 90%;
 }
 
-/* line 7, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 h1 {
   font-weight: 400;
   font-size: 2em;
@@ -297,87 +261,76 @@ h1 {
   background: transparent;
 }
 
-/* line 16, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 .h1TextoGrandeIndex {
   font-weight: 600;
   font-size: 5em;
   text-shadow: 3px 3px 2px #7ec1e4;
 }
 
-/* line 21, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 .h1Titulos {
   border-style: solid;
   border-color: gray;
   border-width: 1px 0px 1px 0px;
   border-radius: 8px 8px 8px 8px;
   background: #cccdcd;
-  background: linear-gradient(90deg, #cccdcd 0%, #7ec1e4 50%, #cccdcd 100%);
+  background: linear-gradient(90deg, rgba(204, 205, 205, 0.9) 0%, rgba(126, 193, 228, 0.9) 50%, rgba(204, 205, 205, 0.9) 100%);
 }
 
-/* line 30, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 h2 {
   font-weight: 400;
   font-size: 1.4em;
   color: #1a1f21;
 }
 
-/* line 35, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 h3 {
   font-weight: 400;
   font-size: 1.3em;
   color: #1a1f21;
 }
 
-/* line 41, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 h4 {
   font-weight: 400;
   font-size: 1.2em;
   color: #1a1f21;
 }
 
-/* line 46, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 h5 {
   font-weight: 400;
   font-size: 1.1em;
   color: #1a1f21;
 }
 
-/* line 51, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 h6 {
   font-weight: 300;
   font-size: 1em;
   color: #1a1f21;
 }
 
-/* line 56, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 p {
   font-weight: 300;
   font-size: 1.1em;
   color: #1a1f21;
 }
 
-/* line 62, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_fuentes.scss */
 .especialParaCardCasosDeExito {
   font-weight: 200;
   font-size: 1.0em;
 }
 
-/* line 7, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_header.scss */
 .estiloHeader {
   z-index: 100;
   background: #cccdcd;
-  background: linear-gradient(90deg, #cccdcd 0%, #7ec1e4 50%, #cccdcd 100%);
+  background: linear-gradient(90deg, rgba(204, 205, 205, 0.9) 0%, rgba(126, 193, 228, 0.9) 50%, rgba(204, 205, 205, 0.9) 100%);
   margin-left: 1%;
   position: fixed;
   top: 0;
   width: 98%;
   height: 3rem;
   min-height: 60px;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
   border-radius: 0px 0px 10px 10px;
 }
 
-/* line 21, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_header.scss */
 nav a {
   display: flex;
   padding: 0 20px;
@@ -387,13 +340,11 @@ nav a {
   text-decoration: none;
 }
 
-/* line 28, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_header.scss */
 nav a:hover {
   transform: scale(1.1, 1.1);
   transition: all 450ms ease-in-out;
 }
 
-/* line 33, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_header.scss */
 nav button {
   display: flex;
   padding: 0 20px;
@@ -404,22 +355,20 @@ nav button {
   border-color: transparent;
 }
 
-/* line 41, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_header.scss */
 nav button:hover {
   transform: scale(1, 1);
   transition: all 450ms ease-in-out;
 }
 
-/* line 1, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_main.scss */
 .estiloMain {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2rem;
   min-height: 90vh;
   margin-top: 4rem;
 }
 
-/* line 9, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_main.scss */
 .estiloMainOnePage {
   display: flex;
   align-items: flex-start;
@@ -432,16 +381,20 @@ nav button:hover {
   margin-top: 4rem;
 }
 
-/* line 21, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_main.scss */
 .estiloMainContacto {
   display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 100Vw;
   align-items: center;
   justify-content: center;
   min-height: 1000px;
   margin-top: 4rem;
 }
 
-/* line 7, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_footer.scss */
 #estiloFooter {
   display: flex;
   flex-direction: row;
@@ -463,7 +416,6 @@ nav button:hover {
   border-top: 1px solid gray;
 }
 
-/* line 27, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_footer.scss */
 .btnFooter {
   background-color: #7ec1e4;
   color: #1a1f21;
@@ -475,54 +427,53 @@ nav button:hover {
   border-top: 1px solid gray;
 }
 
-/* line 31, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_footer.scss */
 #imgLogoFooter {
   width: 10em;
 }
 
-/* line 34, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_footer.scss */
 #imgIconosFooter {
   width: 2.1em;
 }
 
 @media all and (max-width: 991px) {
-  /* line 2, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   header nav ul {
     background: #cccdcd;
-    background: linear-gradient(90deg, #cccdcd 0%, #7ec1e4 50%, #cccdcd 100%);
+    background: linear-gradient(90deg, rgba(204, 205, 205, 0.9) 0%, rgba(126, 193, 228, 0.9) 50%, rgba(204, 205, 205, 0.9) 100%);
+  }
+  .centradoContenidoServicios {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    height: 90Vh;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @media all and (min-width: 991px) {
-  /* line 9, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   header nav ul li div {
     background: #cccdcd;
-    background: linear-gradient(90deg, #cccdcd 0%, #7ec1e4 50%, #cccdcd 100%);
+    background: linear-gradient(90deg, rgba(204, 205, 205, 0.9) 0%, rgba(126, 193, 228, 0.9) 50%, rgba(204, 205, 205, 0.9) 100%);
     border-bottom: 1px solid gray;
     border-radius: 0px 0px 10px 10px;
   }
 }
 
 @media all and (max-width: 550px) {
-  /* line 18, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   .divImgCarrousell {
     margin-left: 0;
     height: 90%;
   }
-  /* line 22, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   #cTMCarrousell {
     margin-right: 0;
     height: 90%;
   }
-  /* line 26, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   #imgLogoFooter {
     width: 6.2em;
   }
-  /* line 29, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   #imgIconosFooter {
     width: 1.8em;
   }
-  /* line 32, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   #contenedorCasosDeExito {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -530,14 +481,21 @@ nav button:hover {
 }
 
 @media all and (max-width: 768px) {
-  /* line 41, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   #imgLogoTitulo {
     width: 0em;
   }
-  /* line 44, ../../../Desktop/DESARROLLOWEBarchivosdelcurso/entregables/1proyectoentrega3_seo/scss/_query.scss */
   .h1TextoGrandeIndex {
     font-size: 3.5em;
   }
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.btnModal {
+  background-color: #7ec1e4;
+  color: #1a1f21;
+  height: 1.9em;
+  border-radius: 5px 5px 5px 5px;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+}

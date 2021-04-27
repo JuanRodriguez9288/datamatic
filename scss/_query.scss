@@ -1,14 +1,19 @@
 @media all and (max-width:991px){
   header nav ul{
-    background: rgb(204,205,205);
-    background: linear-gradient(90deg, rgba(204,205,205,1) 0%, rgba(126,193,228,1) 50%, rgba(204,205,205,1) 100%); 
-  }
-
+    @include fondoServiciosDesplegable;
+   }
+.centradoContenidoServicios{
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  height:90Vh;
+  align-items: center;
+  justify-content: center;
+}
 }
 @media all and (min-width:991px){
   header nav ul li div{
-    background: rgb(204,205,205);
-    background: linear-gradient(90deg, rgba(204,205,205,1) 0%, rgba(126,193,228,1) 50%, rgba(204,205,205,1) 100%); 
+     @include fondoServiciosDesplegable;
     border-bottom: 1px solid gray;
     border-radius: 0px 0px 10px 10px;
   }
