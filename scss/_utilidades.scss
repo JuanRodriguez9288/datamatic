@@ -181,9 +181,14 @@
 }
 .flechaUp{
   display: flex;
-  position: relative;
-  margin-left: 95%;
-  margin-bottom: 3%;
+  position: fixed;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  float: left;
+  bottom: 0;
+  right: 0;
+  
+ 
 }
 #contenedorCarrousellServicios{
   display: flex;
