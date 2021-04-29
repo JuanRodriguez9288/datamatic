@@ -375,6 +375,8 @@ nav button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
   padding-top: 2rem;
   min-height: 90vh;
   margin-top: 4rem;
