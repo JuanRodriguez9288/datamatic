@@ -35,6 +35,14 @@ body {
   padding-top: 5rem;
 }
 
+.noSubLink {
+  text-decoration: none !important;
+}
+
+.noEstiloUl {
+  list-style: none !important;
+}
+
 #anchoContactar {
   width: 50Vw;
 }
