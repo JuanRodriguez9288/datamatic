@@ -166,7 +166,7 @@ body {
 }
 
 .redondeadoBottom {
-  border-bottom: 1px solid gray;
+  border-bottom: 0px solid gray;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -248,11 +248,29 @@ body {
   flex-wrap: wrap;
   justify-items: space-around;
   align-items: center;
-  height: 380px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 390px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   overflow-x: auto;
   overflow-y: auto;
+}
+
+.servicioEnPantallaCompleta {
+  height: 100Vh;
+}
+
+.altoServicio-1tecnologia {
+  height: 100Vh;
+}
+
+.altoServicio-2tecnologias {
+  height: 105Vh;
+}
+
+.altoServicio-3tecnologias {
+  height: 115Vh;
 }
 
 .servicioEnPantallaCompleta {
@@ -460,6 +478,10 @@ nav button:hover {
     height: 90Vh;
     align-items: center;
     justify-content: center;
+  }
+  .redondeadoBottom {
+    border-bottom: 1px solid gray;
+    border-radius: 0px 0px 10px 10px;
   }
 }
 

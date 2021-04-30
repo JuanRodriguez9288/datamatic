@@ -130,7 +130,7 @@
 }
 
 .redondeadoBottom{
-  border-bottom: 1px solid $colorBorde;
+  border-bottom: 0px solid $colorBorde;
   border-radius: 0px 0px 10px 10px;
 }
 #propImgGrande{
@@ -206,11 +206,28 @@
   flex-wrap: wrap;
   justify-items: space-around;
   align-items: center;
-  height: 380px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 390px;
+  padding-top: 1%;
+  padding-bottom:1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   overflow-x: auto;
   overflow-y: auto;
+}
+.servicioEnPantallaCompleta{
+  height: 100Vh;
+}
+
+$altoServCantTecnologias: ("1tecnologia":100Vh,
+  "2tecnologias":105Vh,
+  "3tecnologias":115Vh,
+  );
+  
+
+@each $k, $v in $altoServCantTecnologias{
+  .altoServicio-#{$k}{
+    height: $v;
+    } 
 }
 .servicioEnPantallaCompleta{
   height: 100Vh;

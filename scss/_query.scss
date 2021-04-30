@@ -10,6 +10,10 @@
   align-items: center;
   justify-content: center;
 }
+.redondeadoBottom {
+  border-bottom: 1px solid gray;
+  border-radius: 0px 0px 10px 10px;
+  }
 }
 @media all and (min-width:991px){
   header nav ul li div{
