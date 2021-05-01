@@ -148,15 +148,6 @@ body {
   box-shadow: 3px 3px 8px 2px #7ec1e4;
 }
 
-.centradoContenidoServicios {
-  display: flex;
-  flex-direction: column;
-  flex-basis: auto;
-  height: 100%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .estiloIngresoDeDatos {
   border-color: gray;
   border-width: 1px 1px 1px 1px;
@@ -266,16 +257,25 @@ body {
   height: 100Vh;
 }
 
+.centradoContenidoServicios {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  height: 120%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .altoServicio-1tecnologia {
-  height: 110%;
+  height: 120%;
 }
 
 .altoServicio-2tecnologias {
-  height: 115%;
+  height: 125%;
 }
 
 .altoServicio-3tecnologias {
-  height: 120%;
+  height: 130%;
 }
 
 .servicioEnPantallaCompleta {

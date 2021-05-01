@@ -112,14 +112,7 @@
   box-shadow: 3px 3px 8px 2px $colorFondoCeleste;
   
 }
-.centradoContenidoServicios{
-  display: flex;
-  flex-direction: column;
-  flex-basis: auto;
-  height:100%;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 
 .estiloIngresoDeDatos{
   border-color: $colorBorde;
@@ -222,10 +215,18 @@
 .servicioEnPantallaCompleta{
   height: 100Vh;
 }
+.centradoContenidoServicios{
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  height:120%;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-$altoServCantTecnologias: ("1tecnologia":110%,
-  "2tecnologias":115%,
-  "3tecnologias":120%,
+$altoServCantTecnologias: ("1tecnologia":120%,
+  "2tecnologias":125%,
+  "3tecnologias":130%,
   );
 
 @each $k, $v in $altoServCantTecnologias{
