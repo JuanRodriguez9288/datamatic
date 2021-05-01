@@ -152,7 +152,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: auto;
-  height: 90Vh;
+  height: 100%;
   align-items: center;
   justify-content: flex-start;
 }
@@ -229,6 +229,11 @@ body {
   transition: all 400ms ease-in-out;
 }
 
+.transfLinkTec img:hover {
+  transform: scale(1.3, 1.3);
+  transition: all 300ms ease-in-out;
+}
+
 .flechaUp {
   display: flex;
   position: fixed;
@@ -262,15 +267,15 @@ body {
 }
 
 .altoServicio-1tecnologia {
-  height: 100Vh;
+  height: 110%;
 }
 
 .altoServicio-2tecnologias {
-  height: 105Vh;
+  height: 115%;
 }
 
 .altoServicio-3tecnologias {
-  height: 120Vh;
+  height: 120%;
 }
 
 .servicioEnPantallaCompleta {
@@ -280,6 +285,10 @@ body {
 .divImgCarrousellServicios {
   margin-left: 0;
   height: 90%;
+}
+
+#imgIconoTec {
+  width: 16px;
 }
 
 h1 {
