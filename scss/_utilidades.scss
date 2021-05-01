@@ -222,7 +222,6 @@ $altoServCantTecnologias: ("1tecnologia":100Vh,
   "2tecnologias":105Vh,
   "3tecnologias":120Vh,
   );
-  
 
 @each $k, $v in $altoServCantTecnologias{
   .altoServicio-#{$k}{

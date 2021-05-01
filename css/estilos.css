@@ -389,6 +389,17 @@ nav button:hover {
   transition: all 450ms ease-in-out;
 }
 
+.imgIconoMenuMobile {
+  width: 16px;
+  margin-top: -5px;
+}
+
+.headerMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .estiloMain {
   display: flex;
   align-items: center;
