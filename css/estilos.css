@@ -43,10 +43,6 @@ body {
   list-style: none !important;
 }
 
-#anchoContactar {
-  width: 50Vw;
-}
-
 .overflowAuto {
   overflow: auto;
 }
@@ -60,27 +56,16 @@ body {
   border-radius: 8px 8px 8px 8px;
 }
 
+#anchoContactar {
+  width: 50Vw;
+}
+
 .margenesContacto {
   margin-top: 1rem;
 }
 
 /*General*/
 #imagenesMultiples {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-self: center;
-  align-items: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  overflow-x: auto;
-  overflow-y: auto;
-}
-
-#imagenesMultiplesModal {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,9 +176,18 @@ body {
   width: 45%;
 }
 
-#propImgMitadAlturaModal {
+#propImgParaModal {
   border-radius: 10px 10px 10px 10px;
-  height: 20%;
+  height: 48%;
+  width: 70%;
+}
+
+#imgModalCentrada {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  justify-items: space-around;
+  align-items: center;
 }
 
 /*seccion Casos de éxito*/
@@ -245,7 +239,7 @@ body {
 }
 
 .transfLinkTec img:hover {
-  transform: scale(1.3, 1.3);
+  transform: scale(1.5, 1.5);
   transition: all 300ms ease-in-out;
 }
 
@@ -282,7 +276,7 @@ body {
 }
 
 .modalServicioAjusteAPantalla {
-  height: 70Vh;
+  height: auto;
   width: 40Vw;
 }
 
