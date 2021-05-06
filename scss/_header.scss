@@ -26,6 +26,7 @@ nav {
     font-size: 20px;
     text-decoration: none;
     &:hover {
+      color: $colorTexto;
       transform: scale(1.1, 1.1);
       transition: all 450ms ease-in-out;
     }

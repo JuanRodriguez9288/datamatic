@@ -45,6 +45,21 @@
   overflow-x: auto;
   overflow-y: auto;
 }
+#imagenesMultiplesModal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center ;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
 
 #mitadDeSeccion{
   display:flex;
@@ -97,7 +112,7 @@
 }
 .textAreaFijo{
   resize: none;
-  overflow: scroll;
+  overflow: auto;
 }
 .estiloContenidos{
   border-color: $colorBorde;
@@ -138,6 +153,11 @@
   border-radius: 10px 10px 10px 10px;
   width: 45%;
 }
+#propImgMitadAlturaModal{
+  border-radius: 10px 10px 10px 10px;
+  height: 20%;
+}
+
 
 /*seccion Casos de éxito*/
 #contenedorCasosDeExito{
@@ -168,6 +188,9 @@
 }
 #imgIcon{
   width: 2em;
+}
+#imgIconVerMasServicios{
+  width: 1.5em;
 }
 #img80{
   width: 80%;
@@ -214,6 +237,10 @@
 }
 .servicioEnPantallaCompleta{
   height: 100Vh;
+}
+.modalServicioAjusteAPantalla{
+  height: 70Vh;
+  width: 40Vw;
 }
 .centradoContenidoServicios{
   display: flex;
