@@ -95,7 +95,7 @@ body {
 }
 
 .ancho200px {
-  height: 2.9rem;
+  height: 2.2rem;
 }
 
 #imgLogoTitulo {
@@ -431,7 +431,7 @@ nav button:hover {
 
 .imgIconoMenuMobile {
   width: 16px;
-  margin-top: -5px;
+  margin-top: -2px;
 }
 
 .headerMobile {
@@ -554,6 +554,9 @@ nav button:hover {
 }
 
 @media all and (max-width: 550px) {
+  .ancho200px {
+    height: 1.8rem;
+  }
   #contenedorCarrousellServicios {
     display: flex;
     position: relative;
