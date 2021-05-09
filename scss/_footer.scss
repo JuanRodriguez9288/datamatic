@@ -1,7 +1,7 @@
 
 @mixin fondoFooter(){
-  background: rgb(204,205,205);
-  background: linear-gradient(90deg, rgba(204,205,205,0.29733900396095936) 0%, rgba(126,193,228,0.29733900396095936) 50%, rgba(204,205,205,0.3001401244091386) 100%); 
+  background: $colorBgEstilo;
+  background: $colorGradienteFooter; 
   border-radius: 10px 10px 0px 0px;
 }
 #estiloFooter{

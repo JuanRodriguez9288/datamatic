@@ -1,9 +1,6 @@
 @mixin fondoContenidos(){
-  background: rgb(204,205,205);
-  background: linear-gradient(90deg, 
-  rgba(204,205,205,0.6978992280505952) 0%, 
-  rgba(126,193,228,0.89733900396095936) 50%, 
-  rgba(204,205,205,0.8001401244091386) 100%); 
+  background: $colorBgEstilo;
+  background: $colorGradienteContenidos; 
   }
 
 .padding5rem{
@@ -203,9 +200,8 @@
 
 /*seccion Servicios*/
 @mixin fondoServiciosDesplegable(){
-  background: rgb(204,205,205);
-  background: linear-gradient(90deg, rgba(204,205,205,0.9) 
-  0%, rgba(126,193,228,0.9) 50%, rgba(204,205,205,0.9) 100%);  
+  background: $colorBgEstilo;
+  background: $colorGradienteServiciosMenu;  
 
   }
 

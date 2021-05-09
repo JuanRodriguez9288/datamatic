@@ -1,8 +1,6 @@
 @mixin fondoHeader(){
-  background: rgb(204,205,205);
-  background: linear-gradient(90deg, rgba(204,205,205,0.9) 
-  0%, rgba(126,193,228,0.9) 50%, rgba(204,205,205,0.9) 100%);  
-
+  background: $colorBgEstilo;
+  background: $colorGradienteHeader;  
   }
 .estiloHeader{
   z-index: 100;
@@ -46,6 +44,8 @@ nav {
   }
 }
 
+
+/*Header en mobile*/
 .imgIconoMenuMobile{
   width: 16px;
   margin-top:-2px;

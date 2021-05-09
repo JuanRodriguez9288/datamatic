@@ -148,7 +148,7 @@ body {
 .estiloContenidos {
   border-color: gray;
   background: #cccdcd;
-  background: linear-gradient(90deg, rgba(204, 205, 205, 0.697899) 0%, rgba(126, 193, 228, 0.897339) 50%, rgba(204, 205, 205, 0.80014) 100%);
+  background: linear-gradient(90deg, rgba(204, 205, 205, 0.7) 0%, rgba(126, 193, 228, 0.9) 50%, rgba(204, 205, 205, 0.7) 100%);
   border-width: 1px 0px 1px 0px;
   border-radius: 8px 8px 8px 8px;
   -webkit-box-shadow: 3px 3px 8px 2px #7ec1e4;
@@ -429,6 +429,7 @@ nav button:hover {
   transition: all 450ms ease-in-out;
 }
 
+/*Header en mobile*/
 .imgIconoMenuMobile {
   width: 16px;
   margin-top: -2px;
@@ -485,7 +486,7 @@ nav button:hover {
   align-self: center;
   z-index: 0;
   background: #cccdcd;
-  background: linear-gradient(90deg, rgba(204, 205, 205, 0.297339) 0%, rgba(126, 193, 228, 0.297339) 50%, rgba(204, 205, 205, 0.30014) 100%);
+  background: linear-gradient(90deg, rgba(204, 205, 205, 0.3) 0%, rgba(126, 193, 228, 0.3) 50%, rgba(204, 205, 205, 0.3) 100%);
   border-radius: 10px 10px 0px 0px;
   flex-wrap: wrap;
   margin-left: 1%;
