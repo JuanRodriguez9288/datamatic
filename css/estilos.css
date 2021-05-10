@@ -31,39 +31,6 @@ body {
   background-size: cover;
 }
 
-.padding5rem {
-  padding-top: 5rem;
-}
-
-.noSubLink {
-  text-decoration: none !important;
-}
-
-.noEstiloUl {
-  list-style: none !important;
-}
-
-.overflowAuto {
-  overflow: auto;
-}
-
-/*seccion Contacto*/
-.estiloIFrameMapa {
-  width: 20em;
-  height: 16em;
-  border-color: gray;
-  border-width: 1px 0px 1px 0px;
-  border-radius: 8px 8px 8px 8px;
-}
-
-#anchoContactar {
-  width: 50Vw;
-}
-
-.margenesContacto {
-  margin-top: 1rem;
-}
-
 /*General*/
 #imagenesMultiples {
   display: flex;
@@ -80,6 +47,18 @@ body {
   overflow-y: auto;
 }
 
+.overflowAuto {
+  overflow: auto;
+}
+
+.noSubLink {
+  text-decoration: none !important;
+}
+
+.noEstiloUl {
+  list-style: none !important;
+}
+
 #mitadDeSeccion {
   display: flex;
   width: 48%;
@@ -94,12 +73,8 @@ body {
   padding-top: 5rem;
 }
 
-.ancho200px {
-  height: 2.2rem;
-}
-
 #imgLogoTitulo {
-  width: 20em;
+  width: 20rem;
 }
 
 .contenedorTextosMultiples {
@@ -321,6 +296,23 @@ body {
   width: 16px;
 }
 
+/*seccion Contacto*/
+.estiloIFrameMapa {
+  width: 20em;
+  height: 16em;
+  border-color: gray;
+  border-width: 1px 0px 1px 0px;
+  border-radius: 8px 8px 8px 8px;
+}
+
+#anchoContactar {
+  width: 50Vw;
+}
+
+.margenesContacto {
+  margin-top: 1rem;
+}
+
 h1 {
   font-weight: 400;
   font-size: 2em;
@@ -429,10 +421,14 @@ nav button:hover {
   transition: all 450ms ease-in-out;
 }
 
+.imgLogoHeader {
+  height: 2.2rem;
+}
+
 /*Header en mobile*/
 .imgIconoMenuMobile {
   width: 16px;
-  margin-top: -2px;
+  margin-top: -5px;
 }
 
 .headerMobile {
@@ -512,7 +508,7 @@ nav button:hover {
 }
 
 #imgLogoFooter {
-  width: 10em;
+  width: 12em;
 }
 
 #imgIconosFooter {
@@ -555,9 +551,6 @@ nav button:hover {
 }
 
 @media all and (max-width: 550px) {
-  .ancho200px {
-    height: 1.8rem;
-  }
   #contenedorCarrousellServicios {
     display: flex;
     position: relative;
