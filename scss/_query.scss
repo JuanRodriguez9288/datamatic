@@ -65,11 +65,42 @@
   }
 
   #imgLogoFooter{
-    width: 6.2em;
+    width: 8rem;
   }
 
-  #imgIconosFooter{
-    width: 1.8em;
+  #logosFooter{
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-self: flex-start;
+  z-index: 0;
+  flex-wrap: wrap;
+  height: 3rem;
+  width: 6rem;
+  padding:0;
+  margin-top: .2rem;
+  min-height: 32px;
+  justify-content: center;
+  align-content: flex-start;
+}
+ 
+  .iconoFb{
+    margin-top:0px;
+    margin-left:0px;
+    height:32px;
+    width:32px;
+  }
+  .iconoIg{
+    margin-top:0px;
+    margin-left:0px;
+    height:32px;
+    width:32px;
+  }
+  .iconoTw{
+    margin-top:0px;
+    margin-left:0px;
+    height:32px;
+    width:32px;
   }
 
   #contenedorCasosDeExito{

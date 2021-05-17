@@ -31,6 +31,62 @@
 #imgLogoFooter{
   width: 12em;
 }
-#imgIconosFooter{
-  width: 2.1em;
+
+
+#logosFooter{
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-self: flex-start;
+  z-index: 0;
+  flex-wrap: wrap;
+  height: 2.1rem;
+  width: 7.2rem;
+  padding:0;
+  margin-top: .2rem;
+  min-height: 32px;
+  justify-content: center;
+  align-content: flex-start;
 }
+
+@mixin iconosFooter(){
+  display: flex;
+  flex-direction: row;
+  background-position: center;
+  background-repeat: no-repeat;  
+  }
+  .iconoFb{
+    @include iconosFooter;
+    margin-top:-10px;
+    margin-left:-10px;
+    height:48px;
+    width:48px;
+    background-image: url("../media/fbinicial.png");
+     &:hover {
+      background-image: url("../media/fb.png");
+      }
+      }
+
+  .iconoIg{
+    @include iconosFooter;
+    margin-top:-10px;
+    margin-left:-10px;
+    height:48px;
+    width:48px;
+    background-image: url("../media/iginicial.png");
+     &:hover {
+      background-image: url("../media/ig.png");
+      }
+      }
+  .iconoTw{
+    @include iconosFooter;
+    margin-top:-10px;
+    margin-left:-10px;
+    height:48px;
+    width:48px;
+    background-image: url("../media/twinicial.png");
+     &:hover {
+      background-image: url("../media/tw.png");
+      }
+
+      }
