@@ -157,6 +157,15 @@
   overflow-x: auto;
   overflow-y: auto;
 }
+
+#propImgCasosdeexito{
+  border-radius: $radioTotal10;
+  width: 90%;
+}
+#fotoUte{
+    background-image: url("../media/utefoto.jpg");
+      }
+
 #divImgLink{
   padding-top: .25rem;
   padding-bottom: .50rem;
